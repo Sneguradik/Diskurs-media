@@ -6,15 +6,18 @@ Thumbs.db
 *.log
 
 # Node.js / Angular (yacht_front)
-yacht_front/node_modules/
+frontend/node_modules/
 
-# Gradle / Java (yacht_back)
-yacht_back/.gradle/
-yacht_back/build/
+# Gradle / Java (backend)
+backend/.gradle/
+backend/build/
 
 # PostgreSQL data directory (likely container‐specific)
-yacht_back/pgdata/
+backend/pgdata/
 
 # (Optional) Other editor/IDE files
 .idea/
 *.iml
+
+# Api keys
+backend/.env.example
